@@ -1,0 +1,52 @@
+{
+  "uuid": "624b9518-1d73-5dc6-92db-de1a8796889b",
+  "historyId": "0804d547970ec64b2851e7728176b16d",
+  "name": "File Format Validation - .txt",
+  "fullName": "Upload.TC-003-txt",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-003-txt"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify system rejects .txt files\n\n**Resultado Esperado:**\nError: invalid format\n\n**Datos de Prueba:**\n.txt file\n\n",
+  "descriptionHtml": "Verify system rejects .txt files<br><br>**Resultado Esperado:**<br>Error: invalid format<br><br>**Datos de Prueba:**<br>.txt file<br><br>",
+  "steps": [
+    {
+      "name": "Upload .txt file",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

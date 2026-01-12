@@ -1,0 +1,52 @@
+{
+  "uuid": "2d065da6-da9a-5b0e-bb39-419c674b8697",
+  "historyId": "973e921a44c50d0dcedc62c3e75a1ad4",
+  "name": "Data Recovery - System Crash During Processing",
+  "fullName": "Error Handling.TC-091-crash",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Error Handling"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Recovery"
+    },
+    {
+      "name": "testId",
+      "value": "TC-091-crash"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Error Handling"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test recovery after system crash\n\n**Resultado Esperado:**\nUpload status recoverable, data integrity maintained, can resume or restart upload\n\n**Datos de Prueba:**\nlarge_50k.csv\n\n",
+  "descriptionHtml": "Test recovery after system crash<br><br>**Resultado Esperado:**<br>Upload status recoverable, data integrity maintained, can resume or restart upload<br><br>**Datos de Prueba:**<br>large_50k.csv<br><br>",
+  "steps": [
+    {
+      "name": "Start processing | 2. Simulate server crash | 3. Restart system | 4. Verify recovery capabilities",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

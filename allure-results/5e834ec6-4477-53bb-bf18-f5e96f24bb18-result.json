@@ -1,0 +1,52 @@
+{
+  "uuid": "5e834ec6-4477-53bb-bf18-f5e96f24bb18",
+  "historyId": "ac2152b2c05aa309eb9563fe047f1f01",
+  "name": "Auto-Detection of Standard Fields",
+  "fullName": "Field Mapping.TC-010",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Field Mapping"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-010"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Field Mapping"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify automatic field mapping for standard column names\n\n**Resultado Esperado:**\n≥80% correct auto-mapping for standard fields (Name, Email, Company, Title, Phone)\n\n**Datos de Prueba:**\nsmall_1k.csv with standard column names\n\n",
+  "descriptionHtml": "Verify automatic field mapping for standard column names<br><br>**Resultado Esperado:**<br>≥80% correct auto-mapping for standard fields (Name, Email, Company, Title, Phone)<br><br>**Datos de Prueba:**<br>small_1k.csv with standard column names<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with standard field names | 2. Verify auto-mapping accuracy",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

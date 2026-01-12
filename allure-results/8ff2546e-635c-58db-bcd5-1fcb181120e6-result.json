@@ -1,0 +1,52 @@
+{
+  "uuid": "8ff2546e-635c-58db-bcd5-1fcb181120e6",
+  "historyId": "a595b3aa8d2bf36d5478aa55625c15d6",
+  "name": "Mapping Template - Save",
+  "fullName": "Field Mapping.TC-014-save",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Field Mapping"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-014-save"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Field Mapping"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test saving field mapping template\n\n**Resultado Esperado:**\nTemplate saved and appears in template list\n\n**Datos de Prueba:**\nAny CSV with mappings\n\n",
+  "descriptionHtml": "Test saving field mapping template<br><br>**Resultado Esperado:**<br>Template saved and appears in template list<br><br>**Datos de Prueba:**<br>Any CSV with mappings<br><br>",
+  "steps": [
+    {
+      "name": "Complete field mapping | 2. Click 'Save Template' | 3. Enter template name | 4. Verify template saved",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

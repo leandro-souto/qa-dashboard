@@ -1,0 +1,52 @@
+{
+  "uuid": "dc69fb69-ef5e-5583-b0ab-faa598758256",
+  "historyId": "a4d108077ff9c7ffaf500b2cc6af16dd",
+  "name": "Database - Duplicate Records Table",
+  "fullName": "Integration.TC-061-duplicates",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-061-duplicates"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify duplicates tracked in database\n\n**Resultado Esperado:**\nDuplicates logged in duplicate_records table with metadata\n\n**Datos de Prueba:**\nduplicates_high_5k.csv\n\n",
+  "descriptionHtml": "Verify duplicates tracked in database<br><br>**Resultado Esperado:**<br>Duplicates logged in duplicate_records table with metadata<br><br>**Datos de Prueba:**<br>duplicates_high_5k.csv<br><br>",
+  "steps": [
+    {
+      "name": "Process CSV with duplicates | 2. Query duplicate_records table | 3. Verify tracking",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

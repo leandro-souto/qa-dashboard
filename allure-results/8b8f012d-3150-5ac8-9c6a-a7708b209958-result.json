@@ -1,0 +1,52 @@
+{
+  "uuid": "8b8f012d-3150-5ac8-9c6a-a7708b209958",
+  "historyId": "7ae10a0cd56d414a093ea4278bec2ad1",
+  "name": "Database - Staging Table",
+  "fullName": "Integration.TC-061-staging",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-061-staging"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify data flows to staging table\n\n**Resultado Esperado:**\nAll uploaded data present in staging table\n\n**Datos de Prueba:**\nAny CSV\n\n",
+  "descriptionHtml": "Verify data flows to staging table<br><br>**Resultado Esperado:**<br>All uploaded data present in staging table<br><br>**Datos de Prueba:**<br>Any CSV<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV | 2. Query staging table | 3. Verify data present",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

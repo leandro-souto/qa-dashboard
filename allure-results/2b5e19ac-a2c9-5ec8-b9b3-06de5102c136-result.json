@@ -1,0 +1,52 @@
+{
+  "uuid": "2b5e19ac-a2c9-5ec8-b9b3-06de5102c136",
+  "historyId": "3863a28afaf6a5d2243aa9bef1f6e8b7",
+  "name": "Malformed CSV - Different encodings",
+  "fullName": "Upload.TC-004-encoding",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Negative"
+    },
+    {
+      "name": "testId",
+      "value": "TC-004-encoding"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify parsing of different encodings\n\n**Resultado Esperado:**\nSuccessful parsing\n\n**Datos de Prueba:**\nCSVs with various encodings\n\n",
+  "descriptionHtml": "Verify parsing of different encodings<br><br>**Resultado Esperado:**<br>Successful parsing<br><br>**Datos de Prueba:**<br>CSVs with various encodings<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with UTF-8, UTF-16, ISO-8859-1 encoding",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

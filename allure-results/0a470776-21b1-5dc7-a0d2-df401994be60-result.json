@@ -1,0 +1,52 @@
+{
+  "uuid": "0a470776-21b1-5dc7-a0d2-df401994be60",
+  "historyId": "2a2daed547a704373a742bd90765b724",
+  "name": "Real-Time Validation Feedback",
+  "fullName": "Dashboard.TC-030",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Dashboard"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-030"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Dashboard"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify real-time updates during validation\n\n**Resultado Esperado:**\nProgress bar updates, errors display immediately, counts update live, processing continues, final metrics accurate\n\n**Datos de Prueba:**\nsmall_1k.csv\n\n",
+  "descriptionHtml": "Verify real-time updates during validation<br><br>**Resultado Esperado:**<br>Progress bar updates, errors display immediately, counts update live, processing continues, final metrics accurate<br><br>**Datos de Prueba:**<br>small_1k.csv<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with 1000 records | 2. Monitor progress bar | 3. Observe error detection | 4. Verify continuous updates | 5. Check final metrics",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

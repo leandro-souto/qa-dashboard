@@ -1,0 +1,52 @@
+{
+  "uuid": "76272252-8f50-52ed-bf9c-9f4ede2de473",
+  "historyId": "447ca670dc8990a54bdacc9dfa9b1534",
+  "name": "API - GET /api/uploads/:id",
+  "fullName": "Integration.TC-060-getstatus",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-060-getstatus"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test get upload status endpoint\n\n**Resultado Esperado:**\nReturns 200 with current upload status\n\n**Datos de Prueba:**\nUpload ID\n\n",
+  "descriptionHtml": "Test get upload status endpoint<br><br>**Resultado Esperado:**<br>Returns 200 with current upload status<br><br>**Datos de Prueba:**<br>Upload ID<br><br>",
+  "steps": [
+    {
+      "name": "GET /api/uploads/:id | 2. Verify response format",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "uuid": "98744482-d99b-5e1e-959f-9e956bb17316",
+  "historyId": "a7e73f919d21be728ffc58aa18a2849c",
+  "name": "File Format Validation - .pdf",
+  "fullName": "Upload.TC-003-pdf",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-003-pdf"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify system rejects .pdf files\n\n**Resultado Esperado:**\nError: invalid format\n\n**Datos de Prueba:**\n.pdf file\n\n",
+  "descriptionHtml": "Verify system rejects .pdf files<br><br>**Resultado Esperado:**<br>Error: invalid format<br><br>**Datos de Prueba:**<br>.pdf file<br><br>",
+  "steps": [
+    {
+      "name": "Upload .pdf file",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

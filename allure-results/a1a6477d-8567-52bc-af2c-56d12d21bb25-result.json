@@ -1,0 +1,52 @@
+{
+  "uuid": "a1a6477d-8567-52bc-af2c-56d12d21bb25",
+  "historyId": "27bce2a762a5b38183bb9e95abe2f247",
+  "name": "Database - Contacts Table",
+  "fullName": "Integration.TC-061-contacts",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-061-contacts"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify processed records in contacts table\n\n**Resultado Esperado:**\nValid records correctly inserted into contacts table\n\n**Datos de Prueba:**\nAny CSV\n\n",
+  "descriptionHtml": "Verify processed records in contacts table<br><br>**Resultado Esperado:**<br>Valid records correctly inserted into contacts table<br><br>**Datos de Prueba:**<br>Any CSV<br><br>",
+  "steps": [
+    {
+      "name": "Process records | 2. Query contacts table | 3. Verify data accuracy",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "uuid": "dc402311-bf61-5397-98a3-bec57cae003c",
+  "historyId": "9f03abe94a9c9f2007c4849735bfaa91",
+  "name": "Malformed CSV - Inconsistent columns",
+  "fullName": "Upload.TC-004-inconsistent",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Negative"
+    },
+    {
+      "name": "testId",
+      "value": "TC-004-inconsistent"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify handling of CSV with inconsistent column counts\n\n**Resultado Esperado:**\nError with line numbers\n\n**Datos de Prueba:**\nCSV with inconsistent columns\n\n",
+  "descriptionHtml": "Verify handling of CSV with inconsistent column counts<br><br>**Resultado Esperado:**<br>Error with line numbers<br><br>**Datos de Prueba:**<br>CSV with inconsistent columns<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with varying column counts per row",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "uuid": "2338748a-4dd4-5780-a402-fab0503c09c6",
+  "historyId": "82963cee1ea911769670b99e067e4641",
+  "name": "Malformed CSV - Special characters",
+  "fullName": "Upload.TC-004-special",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Negative"
+    },
+    {
+      "name": "testId",
+      "value": "TC-004-special"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify handling of special characters\n\n**Resultado Esperado:**\nSuccessful with proper encoding\n\n**Datos de Prueba:**\nmalformed_1k.csv\n\n",
+  "descriptionHtml": "Verify handling of special characters<br><br>**Resultado Esperado:**<br>Successful with proper encoding<br><br>**Datos de Prueba:**<br>malformed_1k.csv<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with special characters",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

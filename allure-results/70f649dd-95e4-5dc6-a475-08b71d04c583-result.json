@@ -1,0 +1,52 @@
+{
+  "uuid": "70f649dd-95e4-5dc6-a475-08b71d04c583",
+  "historyId": "ac94ce19d4b8c196898c6d84f268166c",
+  "name": "File Format Validation - .xlsx",
+  "fullName": "Upload.TC-003-xlsx",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-003-xlsx"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify system rejects .xlsx files\n\n**Resultado Esperado:**\nError: invalid format\n\n**Datos de Prueba:**\n.xlsx file\n\n",
+  "descriptionHtml": "Verify system rejects .xlsx files<br><br>**Resultado Esperado:**<br>Error: invalid format<br><br>**Datos de Prueba:**<br>.xlsx file<br><br>",
+  "steps": [
+    {
+      "name": "Upload .xlsx file",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

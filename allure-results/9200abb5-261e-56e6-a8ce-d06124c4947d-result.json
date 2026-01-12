@@ -1,0 +1,52 @@
+{
+  "uuid": "9200abb5-261e-56e6-a8ce-d06124c4947d",
+  "historyId": "51fcdb2577efa0cb124341b97b2e6d7f",
+  "name": "AWS Lambda/ECS - Processing Trigger",
+  "fullName": "Integration.TC-062-lambda",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-062-lambda"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify processing function executes\n\n**Resultado Esperado:**\nLambda/ECS function executes successfully\n\n**Datos de Prueba:**\nAny CSV\n\n",
+  "descriptionHtml": "Verify processing function executes<br><br>**Resultado Esperado:**<br>Lambda/ECS function executes successfully<br><br>**Datos de Prueba:**<br>Any CSV<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV | 2. Trigger processing | 3. Verify execution",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

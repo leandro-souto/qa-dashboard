@@ -1,0 +1,52 @@
+{
+  "uuid": "9f8a3a86-b2f9-5378-bfa8-4193cd3d4713",
+  "historyId": "b5fb81fb9b3c5bd31ea8af00e126beae",
+  "name": "File Format Validation - .csv",
+  "fullName": "Upload.TC-003-csv",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-003-csv"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify system accepts .csv files\n\n**Resultado Esperado:**\nUpload successful\n\n**Datos de Prueba:**\nValid .csv file\n\n",
+  "descriptionHtml": "Verify system accepts .csv files<br><br>**Resultado Esperado:**<br>Upload successful<br><br>**Datos de Prueba:**<br>Valid .csv file<br><br>",
+  "steps": [
+    {
+      "name": "Upload .csv file",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

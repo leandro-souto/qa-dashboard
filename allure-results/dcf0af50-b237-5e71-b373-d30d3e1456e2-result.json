@@ -1,0 +1,52 @@
+{
+  "uuid": "dcf0af50-b237-5e71-b373-d30d3e1456e2",
+  "historyId": "7e697b494adcb07ff1cb5cfd37c43191",
+  "name": "File Size Validation - 500,000 contacts",
+  "fullName": "Upload.TC-002d",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-002d"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify system accepts maximum file size\n\n**Resultado Esperado:**\nUpload successful\n\n**Datos de Prueba:**\nCSV with 500,000 records (maximum_500k.csv)\n\n",
+  "descriptionHtml": "Verify system accepts maximum file size<br><br>**Resultado Esperado:**<br>Upload successful<br><br>**Datos de Prueba:**<br>CSV with 500,000 records (maximum_500k.csv)<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with 500,000 contacts",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "uuid": "fbe34972-8db2-53ff-8fca-a637b20c1b93",
+  "historyId": "cc97821c8838b8d232cdab1773ef2a2f",
+  "name": "File Format Validation - .json",
+  "fullName": "Upload.TC-003-json",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-003-json"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify system rejects .json files\n\n**Resultado Esperado:**\nError: invalid format\n\n**Datos de Prueba:**\n.json file\n\n",
+  "descriptionHtml": "Verify system rejects .json files<br><br>**Resultado Esperado:**<br>Error: invalid format<br><br>**Datos de Prueba:**<br>.json file<br><br>",
+  "steps": [
+    {
+      "name": "Upload .json file",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "uuid": "94421714-6a8b-5362-b0e6-6066b32e20b1",
+  "historyId": "4d1c851bac1b5cea7ccacaeb23992fdb",
+  "name": "Drag-and-Drop Upload",
+  "fullName": "Upload.TC-001",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-001"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [
+    {
+      "name": "Valid CSV",
+      "value": "1,000 contacts; 50,000 contacts; 250,000 contacts"
+    }
+  ],
+  "description": "Test drag-and-drop file upload functionality\n\n**Resultado Esperado:**\nFile uploads successfully with progress bar and success message\n\n**Datos de Prueba:**\nValid CSV: 1,000 contacts; 50,000 contacts; 250,000 contacts\n\n",
+  "descriptionHtml": "Test drag-and-drop file upload functionality<br><br>**Resultado Esperado:**<br>File uploads successfully with progress bar and success message<br><br>**Datos de Prueba:**<br>Valid CSV: 1,000 contacts; 50,000 contacts; 250,000 contacts<br><br>",
+  "steps": [
+    {
+      "name": "Click on \"Drag and drop your CSV file here\"  | 2. Drag CSV file to drop zone | 3. Drop file | 4. Verify upload completion",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "uuid": "ff583809-3b3e-5782-9a96-4b9384e84c50",
+  "historyId": "901a9618cff70f1d1899e3656c0a8e31",
+  "name": "API - POST /api/upload",
+  "fullName": "Integration.TC-060-upload",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-060-upload"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test CSV upload endpoint\n\n**Resultado Esperado:**\nReturns 200 status with upload ID\n\n**Datos de Prueba:**\nAny CSV\n\n",
+  "descriptionHtml": "Test CSV upload endpoint<br><br>**Resultado Esperado:**<br>Returns 200 status with upload ID<br><br>**Datos de Prueba:**<br>Any CSV<br><br>",
+  "steps": [
+    {
+      "name": "POST CSV file to /api/upload | 2. Verify response format",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

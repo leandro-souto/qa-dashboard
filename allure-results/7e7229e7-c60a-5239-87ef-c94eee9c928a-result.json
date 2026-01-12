@@ -1,0 +1,52 @@
+{
+  "uuid": "7e7229e7-c60a-5239-87ef-c94eee9c928a",
+  "historyId": "f0c5b1c6bf759985527540f35e23fed1",
+  "name": "AWS CloudWatch - Execution Logs",
+  "fullName": "Integration.TC-062-logs",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-062-logs"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify CloudWatch logs are created\n\n**Resultado Esperado:**\nExecution logs present in CloudWatch with appropriate detail\n\n**Datos de Prueba:**\nAny CSV\n\n",
+  "descriptionHtml": "Verify CloudWatch logs are created<br><br>**Resultado Esperado:**<br>Execution logs present in CloudWatch with appropriate detail<br><br>**Datos de Prueba:**<br>Any CSV<br><br>",
+  "steps": [
+    {
+      "name": "Execute processing | 2. Check CloudWatch logs",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

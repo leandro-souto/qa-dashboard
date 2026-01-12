@@ -1,0 +1,52 @@
+{
+  "uuid": "87c49a25-0252-5636-8c18-dbe85b99f21a",
+  "historyId": "0673db25f163f0aefb922b7f630c84d2",
+  "name": "Duplicate Detection",
+  "fullName": "Data Validation.TC-022",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Data Validation"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-022"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Data Validation"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify duplicate detection accuracy ≥95%\n\n**Resultado Esperado:**\n≥95% duplicate detection accuracy. Exact email matches detected. Email case differences detected. Name+Company matches flagged. Phone number matches flagged.\n\n**Datos de Prueba:**\nduplicates_high_5k.csv with 500 known duplicates\n\n",
+  "descriptionHtml": "Verify duplicate detection accuracy ≥95%<br><br>**Resultado Esperado:**<br>≥95% duplicate detection accuracy. Exact email matches detected. Email case differences detected. Name+Company matches flagged. Phone number matches flagged.<br><br>**Datos de Prueba:**<br>duplicates_high_5k.csv with 500 known duplicates<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with known duplicates | 2. Verify detection results | 3. Calculate accuracy rate",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

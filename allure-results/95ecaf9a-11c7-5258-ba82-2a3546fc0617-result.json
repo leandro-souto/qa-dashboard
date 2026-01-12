@@ -1,0 +1,52 @@
+{
+  "uuid": "95ecaf9a-11c7-5258-ba82-2a3546fc0617",
+  "historyId": "7eae99dac3ab4095c12b52bd67013b08",
+  "name": "Drag-and-Drop Upload",
+  "fullName": "Upload.TC-003csv",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-003csv"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify multi CSV upload\n\n**Resultado Esperado:**\nAction not allowed\n\n**Datos de Prueba:**\nAny valid CSV format\n\n",
+  "descriptionHtml": "Verify multi CSV upload<br><br>**Resultado Esperado:**<br>Action not allowed<br><br>**Datos de Prueba:**<br>Any valid CSV format<br><br>",
+  "steps": [
+    {
+      "name": "Click on \"Drag and drop your CSV file here\"  | 2. Select multiple files using CTRL | 4. Verify system behavior",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

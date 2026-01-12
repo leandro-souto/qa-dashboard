@@ -1,0 +1,52 @@
+{
+  "uuid": "83db6857-8b83-5eaa-a008-0605b7c4e350",
+  "historyId": "41210198097f28238c4576c7ed7282d2",
+  "name": "Error Recovery - Memory Limit Exceeded",
+  "fullName": "Error Handling.TC-090-memory",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Error Handling"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Recovery"
+    },
+    {
+      "name": "testId",
+      "value": "TC-090-memory"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Error Handling"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test handling when memory limit is exceeded\n\n**Resultado Esperado:**\nGraceful degradation, clear error message, no system crash\n\n**Datos de Prueba:**\nExtremely large CSV\n\n",
+  "descriptionHtml": "Test handling when memory limit is exceeded<br><br>**Resultado Esperado:**<br>Graceful degradation, clear error message, no system crash<br><br>**Datos de Prueba:**<br>Extremely large CSV<br><br>",
+  "steps": [
+    {
+      "name": "Upload file that exceeds memory limit | 2. Observe error handling",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

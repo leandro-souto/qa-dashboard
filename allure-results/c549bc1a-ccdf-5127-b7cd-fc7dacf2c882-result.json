@@ -1,0 +1,52 @@
+{
+  "uuid": "c549bc1a-ccdf-5127-b7cd-fc7dacf2c882",
+  "historyId": "7d7609b7e874b3d3ab41aa0e7f6ef75f",
+  "name": "File Size Validation - 10 contacts",
+  "fullName": "Upload.TC-002a",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-002a"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify system accepts minimum file size\n\n**Resultado Esperado:**\nUpload successful\n\n**Datos de Prueba:**\nCSV with 10 records\n\n",
+  "descriptionHtml": "Verify system accepts minimum file size<br><br>**Resultado Esperado:**<br>Upload successful<br><br>**Datos de Prueba:**<br>CSV with 10 records<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with 10 contacts",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

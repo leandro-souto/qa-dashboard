@@ -1,0 +1,44 @@
+{
+  "uuid": "f8bf9a3a-f1b7-53ef-8846-508cc7d17c97",
+  "historyId": "3b1388cff25d80b758b4112b7e40132e",
+  "name": "Multi-Column Mapping",
+  "fullName": "Field Mapping.TC-012",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Field Mapping"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-012"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Field Mapping"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test mapping multiple source columns to single target field\n\n**Resultado Esperado:**\nFull names display correctly from split columns\n\n**Datos de Prueba:**\nsplit_names_1k.csv\n\n",
+  "descriptionHtml": "Test mapping multiple source columns to single target field<br><br>**Resultado Esperado:**<br>Full names display correctly from split columns<br><br>**Datos de Prueba:**<br>split_names_1k.csv<br><br>"
+}

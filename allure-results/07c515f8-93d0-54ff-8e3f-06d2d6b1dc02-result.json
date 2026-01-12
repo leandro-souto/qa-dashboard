@@ -1,0 +1,52 @@
+{
+  "uuid": "07c515f8-93d0-54ff-8e3f-06d2d6b1dc02",
+  "historyId": "63b48f2380bf7a2c6d893cd3fef4835e",
+  "name": "Error Recovery - Invalid CSV Mid-File",
+  "fullName": "Error Handling.TC-090-invalid",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Error Handling"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Recovery"
+    },
+    {
+      "name": "testId",
+      "value": "TC-090-invalid"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Error Handling"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test handling when CSV becomes invalid mid-file\n\n**Resultado Esperado:**\nError with specific line number, partial import option available\n\n**Datos de Prueba:**\nCSV with corruption at row 5000\n\n",
+  "descriptionHtml": "Test handling when CSV becomes invalid mid-file<br><br>**Resultado Esperado:**<br>Error with specific line number, partial import option available<br><br>**Datos de Prueba:**<br>CSV with corruption at row 5000<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV that becomes invalid at row 5000 | 2. Observe error handling",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

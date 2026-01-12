@@ -1,0 +1,52 @@
+{
+  "uuid": "e970ad25-3ab3-5de1-b931-930339302e7e",
+  "historyId": "f5127e70666dd68444c4aa959c0b7a78",
+  "name": "Malformed CSV - Empty file",
+  "fullName": "Upload.TC-004-empty",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Negative"
+    },
+    {
+      "name": "testId",
+      "value": "TC-004-empty"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify handling of empty CSV file\n\n**Resultado Esperado:**\nError with clear message\n\n**Datos de Prueba:**\nempty.csv\n\n",
+  "descriptionHtml": "Verify handling of empty CSV file<br><br>**Resultado Esperado:**<br>Error with clear message<br><br>**Datos de Prueba:**<br>empty.csv<br><br>",
+  "steps": [
+    {
+      "name": "Upload empty CSV file with header",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

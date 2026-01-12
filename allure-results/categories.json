@@ -1,0 +1,60 @@
+[
+  {
+    "name": "\ud83d\udd34 Product Defects (Failed)",
+    "description": "Tests que fallaron - bugs encontrados en el producto",
+    "matchedStatuses": [
+      "failed"
+    ]
+  },
+  {
+    "name": "\ud83d\udeab Blocked Tests",
+    "description": "Tests bloqueados por dependencias o ambiente",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "\u23f8\ufe0f Pending Execution",
+    "description": "Tests pendientes de ejecutar",
+    "matchedStatuses": [
+      "unknown"
+    ]
+  },
+  {
+    "name": "\u23ed\ufe0f Skipped Tests",
+    "description": "Tests omitidos intencionalmente",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  },
+  {
+    "name": "\ud83d\udccb Functional Tests",
+    "matchedStatuses": [],
+    "messageRegex": ".*Functional.*"
+  },
+  {
+    "name": "\ud83d\udccb Negative Tests",
+    "matchedStatuses": [],
+    "messageRegex": ".*Negative.*"
+  },
+  {
+    "name": "\ud83d\udccb Integration Tests",
+    "matchedStatuses": [],
+    "messageRegex": ".*Integration.*"
+  },
+  {
+    "name": "\ud83d\udccb Recovery Tests",
+    "matchedStatuses": [],
+    "messageRegex": ".*Recovery.*"
+  },
+  {
+    "name": "\ud83d\udd25 Critical Priority",
+    "matchedStatuses": [],
+    "messageRegex": ".*Critical.*"
+  },
+  {
+    "name": "\u26a1 High Priority",
+    "matchedStatuses": [],
+    "messageRegex": ".*High.*"
+  }
+]

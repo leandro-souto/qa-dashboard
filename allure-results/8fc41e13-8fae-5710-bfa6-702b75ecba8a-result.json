@@ -1,0 +1,52 @@
+{
+  "uuid": "8fc41e13-8fae-5710-bfa6-702b75ecba8a",
+  "historyId": "602ff470158e73e6748e3efc436b1853",
+  "name": "API - POST /api/mappings",
+  "fullName": "Integration.TC-060-savemappings",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-060-savemappings"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test save mapping endpoint\n\n**Resultado Esperado:**\nReturns 201, mapping saved successfully\n\n**Datos de Prueba:**\nMapping JSON\n\n",
+  "descriptionHtml": "Test save mapping endpoint<br><br>**Resultado Esperado:**<br>Returns 201, mapping saved successfully<br><br>**Datos de Prueba:**<br>Mapping JSON<br><br>",
+  "steps": [
+    {
+      "name": "POST mapping configuration | 2. Verify response",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

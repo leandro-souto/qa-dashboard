@@ -1,0 +1,52 @@
+{
+  "uuid": "5a195003-c3e8-5c05-b748-0d7503ee1c7d",
+  "historyId": "a479c632aefa855a5b33d24d9738d9cd",
+  "name": "File Size Validation - 250,000 contacts",
+  "fullName": "Upload.TC-002c",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-002c"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify system accepts 250K contacts\n\n**Resultado Esperado:**\nUpload successful\n\n**Datos de Prueba:**\nCSV with 250,000 records (xlarge_250k.csv)\n\n",
+  "descriptionHtml": "Verify system accepts 250K contacts<br><br>**Resultado Esperado:**<br>Upload successful<br><br>**Datos de Prueba:**<br>CSV with 250,000 records (xlarge_250k.csv)<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with 250,000 contacts",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "uuid": "90ee3f65-9755-5399-aab0-61570c44fd37",
+  "historyId": "265bcd21ea949c41299ef27c9ffbc19a",
+  "name": "Error Recovery - Database Connection Lost",
+  "fullName": "Error Handling.TC-090-dblost",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Error Handling"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Recovery"
+    },
+    {
+      "name": "testId",
+      "value": "TC-090-dblost"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Error Handling"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test handling when database connection is lost during upload\n\n**Resultado Esperado:**\nGraceful error message displayed, data not lost, retry option available, upload can be resumed\n\n**Datos de Prueba:**\nmedium_10k.csv\n\n",
+  "descriptionHtml": "Test handling when database connection is lost during upload<br><br>**Resultado Esperado:**<br>Graceful error message displayed, data not lost, retry option available, upload can be resumed<br><br>**Datos de Prueba:**<br>medium_10k.csv<br><br>",
+  "steps": [
+    {
+      "name": "Start upload | 2. Simulate DB connection loss mid-processing | 3. Observe error handling | 4. Verify data state",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

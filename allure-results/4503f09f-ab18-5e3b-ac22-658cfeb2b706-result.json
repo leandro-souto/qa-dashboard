@@ -1,0 +1,52 @@
+{
+  "uuid": "4503f09f-ab18-5e3b-ac22-658cfeb2b706",
+  "historyId": "6a156a2db0b571219c9d27f620a00ccb",
+  "name": "Database - Upload History Table",
+  "fullName": "Integration.TC-061-history",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-061-history"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify upload history tracked\n\n**Resultado Esperado:**\nUpload history updated with accurate metrics\n\n**Datos de Prueba:**\nAny CSV\n\n",
+  "descriptionHtml": "Verify upload history tracked<br><br>**Resultado Esperado:**<br>Upload history updated with accurate metrics<br><br>**Datos de Prueba:**<br>Any CSV<br><br>",
+  "steps": [
+    {
+      "name": "Complete upload | 2. Query upload_history table | 3. Verify metrics",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

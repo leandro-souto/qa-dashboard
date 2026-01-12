@@ -1,0 +1,52 @@
+{
+  "uuid": "eea7d889-23cb-5ab5-a07c-d083932ef64b",
+  "historyId": "7bad4824d7ef69527dc355213c64d8bf",
+  "name": "Malformed CSV - Mixed delimiters",
+  "fullName": "Upload.TC-004-delimiters",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Negative"
+    },
+    {
+      "name": "testId",
+      "value": "TC-004-delimiters"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify handling of mixed delimiters\n\n**Resultado Esperado:**\nError or successful detection\n\n**Datos de Prueba:**\nCSV with tabs and commas; commas and semicolon\n\n",
+  "descriptionHtml": "Verify handling of mixed delimiters<br><br>**Resultado Esperado:**<br>Error or successful detection<br><br>**Datos de Prueba:**<br>CSV with tabs and commas; commas and semicolon<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with mixed delimiters",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

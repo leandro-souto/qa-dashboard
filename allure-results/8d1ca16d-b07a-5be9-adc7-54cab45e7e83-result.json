@@ -1,0 +1,52 @@
+{
+  "uuid": "8d1ca16d-b07a-5be9-adc7-54cab45e7e83",
+  "historyId": "6190d4ab9ef116a13134da068d2668c9",
+  "name": "Malformed CSV - No headers",
+  "fullName": "Upload.TC-004-noheaders",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Upload"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Negative"
+    },
+    {
+      "name": "testId",
+      "value": "TC-004-noheaders"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Upload"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify handling of CSV without headers\n\n**Resultado Esperado:**\nError or prompt for manual mapping\n\n**Datos de Prueba:**\nno_headers_100.csv\n\n",
+  "descriptionHtml": "Verify handling of CSV without headers<br><br>**Resultado Esperado:**<br>Error or prompt for manual mapping<br><br>**Datos de Prueba:**<br>no_headers_100.csv<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with no headers",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

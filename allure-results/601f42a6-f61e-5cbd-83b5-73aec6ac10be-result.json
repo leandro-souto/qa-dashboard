@@ -1,0 +1,52 @@
+{
+  "uuid": "601f42a6-f61e-5cbd-83b5-73aec6ac10be",
+  "historyId": "97bfb8d4b54c06538b7d0f92a0c88d3c",
+  "name": "Error Recovery - Concurrent Duplicate Conflicts",
+  "fullName": "Error Handling.TC-090-concurrent",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Error Handling"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Recovery"
+    },
+    {
+      "name": "testId",
+      "value": "TC-090-concurrent"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Error Handling"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Test handling of concurrent duplicate detection conflicts\n\n**Resultado Esperado:**\nLast-write-wins or merge strategy applied, no data loss\n\n**Datos de Prueba:**\nIdentical CSV uploaded by 2 users concurrently\n\n",
+  "descriptionHtml": "Test handling of concurrent duplicate detection conflicts<br><br>**Resultado Esperado:**<br>Last-write-wins or merge strategy applied, no data loss<br><br>**Datos de Prueba:**<br>Identical CSV uploaded by 2 users concurrently<br><br>",
+  "steps": [
+    {
+      "name": "Upload identical data from 2 users simultaneously | 2. Observe conflict resolution",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

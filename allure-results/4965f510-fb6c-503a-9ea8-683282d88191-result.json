@@ -1,0 +1,52 @@
+{
+  "uuid": "4965f510-fb6c-503a-9ea8-683282d88191",
+  "historyId": "0f0b5fff88747072c6f579b91da4f3c2",
+  "name": "AWS S3 - Retention Policy",
+  "fullName": "Integration.TC-062-s3retention",
+  "status": "unknown",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Integration"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Integration"
+    },
+    {
+      "name": "testId",
+      "value": "TC-062-s3retention"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Integration"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify S3 retention policy applied\n\n**Resultado Esperado:**\nRetention policy correctly applied to processed files\n\n**Datos de Prueba:**\nProcessed CSV\n\n",
+  "descriptionHtml": "Verify S3 retention policy applied<br><br>**Resultado Esperado:**<br>Retention policy correctly applied to processed files<br><br>**Datos de Prueba:**<br>Processed CSV<br><br>",
+  "steps": [
+    {
+      "name": "Complete processing | 2. Verify retention policy | 3. Check file lifecycle",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}

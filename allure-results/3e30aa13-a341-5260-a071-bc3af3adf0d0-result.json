@@ -1,0 +1,52 @@
+{
+  "uuid": "3e30aa13-a341-5260-a071-bc3af3adf0d0",
+  "historyId": "c45667397bcdaed9ff78f41b2bf5f10d",
+  "name": "Required Field Validation",
+  "fullName": "Data Validation.TC-021",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "start": 1768253259316,
+  "stop": 1768253260316,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Data Validation"
+    },
+    {
+      "name": "severity",
+      "value": "high"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "testId",
+      "value": "TC-021"
+    },
+    {
+      "name": "testType",
+      "value": "manual"
+    },
+    {
+      "name": "suite",
+      "value": "Data Validation"
+    }
+  ],
+  "links": [],
+  "parameters": [],
+  "description": "Verify validation of required fields (name, email)\n\n**Resultado Esperado:**\nRecords with missing name or email are flagged as invalid\n\n**Datos de Prueba:**\nCSV with various combinations of missing name/email\n\n",
+  "descriptionHtml": "Verify validation of required fields (name, email)<br><br>**Resultado Esperado:**<br>Records with missing name or email are flagged as invalid<br><br>**Datos de Prueba:**<br>CSV with various combinations of missing name/email<br><br>",
+  "steps": [
+    {
+      "name": "Upload CSV with missing required fields | 2. Verify validation errors",
+      "status": "passed",
+      "start": 1768253259316,
+      "stop": 1768253259416
+    }
+  ]
+}
