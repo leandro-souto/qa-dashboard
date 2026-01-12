@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'test_data/test_cases.xlsx'
+       - 'test_data/*.xlsx'
   workflow_dispatch:
 
 permissions:
