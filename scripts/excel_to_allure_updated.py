@@ -256,9 +256,9 @@ class ExcelToAllureConverter:
     
     def generate_environment(self):
         """Genera archivo environment.properties"""
-        env_content = f"""Test.Environment=Manual Testing
+        env_content = f"""Test.Environment=Dev
 Execution.Date={datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-Tester=QA Team
+Tester=Falon Strada
 Test.Type=Manual
 Report.Version=1.0
 Status.Values=PENDING, PASSED, FAILED, BLOCKED, SKIPPED
