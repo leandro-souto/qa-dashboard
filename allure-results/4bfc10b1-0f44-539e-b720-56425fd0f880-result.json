@@ -9,8 +9,8 @@
     "muted": false,
     "flaky": false
   },
-  "start": 1768253259316,
-  "stop": 1768253260316,
+  "start": 1768258280014,
+  "stop": 1768258281014,
   "labels": [
     {
       "name": "feature",
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with valid and invalid emails | 2. Monitor validation results",
       "status": "passed",
-      "start": 1768253259316,
-      "stop": 1768253259416
+      "start": 1768258280014,
+      "stop": 1768258280114
     }
   ]
 }

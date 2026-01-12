@@ -9,8 +9,8 @@
     "muted": false,
     "flaky": false
   },
-  "start": 1768253259316,
-  "stop": 1768253260316,
+  "start": 1768258280014,
+  "stop": 1768258281014,
   "labels": [
     {
       "name": "feature",
@@ -45,8 +45,8 @@
     {
       "name": "Start upload | 2. Simulate DB connection loss mid-processing | 3. Observe error handling | 4. Verify data state",
       "status": "passed",
-      "start": 1768253259316,
-      "stop": 1768253259416
+      "start": 1768258280014,
+      "stop": 1768258280114
     }
   ]
 }
