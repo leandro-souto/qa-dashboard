@@ -1,0 +1,27 @@
+name: Send Teams Weekly Alert
+
+on:
+  schedule:
+    - cron: "0 21 * * 5"
+  workflow_dispatch:
+
+jobs:
+  send-alert:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests pandas openpyxl
+      
+      - name: Send Teams Alert
+        env:
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+        run: python scripts/send_teams_alert.py

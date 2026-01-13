@@ -76,7 +76,10 @@ class ExcelToAllureConverter:
                 print(f"❌ Error: No se encontraron las tabs esperadas")
                 raise ValueError("Tabs 'Functional TC' o 'Non Functional TC' no encontradas")
             
-            # Combinar todos los DataFrames
+            # Combinar todos los DataFrames con categoría
+            for tab, df_tab in zip(tabs_to_read, dfs):
+                df_tab['Category'] = tab
+            
             df_combined = pd.concat(dfs, ignore_index=True)
             print(f"✅ Excel cargado: {len(df_combined)} casos de prueba encontrados en total")
             return df_combined
