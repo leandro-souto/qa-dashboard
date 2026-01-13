@@ -53,11 +53,33 @@ class ExcelToAllureConverter:
         Path(self.output_dir).mkdir(parents=True, exist_ok=True)
         
     def read_excel(self):
-        """Lee el archivo Excel con casos de prueba"""
+        """Lee el archivo Excel con casos de prueba desde múltiples tabs"""
         try:
-            df = pd.read_excel(self.excel_path)
-            print(f"✅ Excel cargado: {len(df)} casos de prueba encontrados")
-            return df
+            # Leer todas las hojas disponibles
+            excel_file = pd.ExcelFile(self.excel_path)
+            sheet_names = excel_file.sheet_names
+            print(f"📋 Hojas encontradas: {sheet_names}")
+            
+            # Listas de tabs a buscar
+            tabs_to_read = ['Functional TC', 'Non Functional TC']
+            dfs = []
+            
+            for tab in tabs_to_read:
+                if tab in sheet_names:
+                    df_tab = pd.read_excel(self.excel_path, sheet_name=tab)
+                    dfs.append(df_tab)
+                    print(f"✅ Tab '{tab}' cargada: {len(df_tab)} casos encontrados")
+                else:
+                    print(f"⚠️ Tab '{tab}' no encontrada")
+            
+            if not dfs:
+                print(f"❌ Error: No se encontraron las tabs esperadas")
+                raise ValueError("Tabs 'Functional TC' o 'Non Functional TC' no encontradas")
+            
+            # Combinar todos los DataFrames
+            df_combined = pd.concat(dfs, ignore_index=True)
+            print(f"✅ Excel cargado: {len(df_combined)} casos de prueba encontrados en total")
+            return df_combined
         except FileNotFoundError:
             print(f"❌ Error: Archivo no encontrado: {self.excel_path}")
             raise
