@@ -61,7 +61,7 @@ class ExcelToAllureConverter:
             print(f"📋 Hojas encontradas: {sheet_names}")
             
             # Listas de tabs a buscar
-            tabs_to_read = ['Functional TC', 'Non Functional TC']
+            tabs_to_read = ['Functional TC', 'Non functional TC']
             dfs = []
             
             for tab in tabs_to_read:
