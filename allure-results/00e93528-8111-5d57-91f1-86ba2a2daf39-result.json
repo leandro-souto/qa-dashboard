@@ -9,8 +9,8 @@
     "muted": false,
     "flaky": false
   },
-  "start": 1769020336272,
-  "stop": 1769020337272,
+  "start": 1769021497765,
+  "stop": 1769021498765,
   "labels": [
     {
       "name": "feature",
@@ -45,8 +45,8 @@
     {
       "name": "Upload 100 row records | 2. Simulate failure at Data Ingestion stage | 3. Verify data state | 4. Attempt resume",
       "status": "passed",
-      "start": 1769020336272,
-      "stop": 1769020336372
+      "start": 1769021497765,
+      "stop": 1769021497865
     }
   ]
 }
