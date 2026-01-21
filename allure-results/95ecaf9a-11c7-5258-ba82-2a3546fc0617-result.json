@@ -9,8 +9,8 @@
     "muted": false,
     "flaky": false
   },
-  "start": 1769021497765,
-  "stop": 1769021498765,
+  "start": 1769021603649,
+  "stop": 1769021604649,
   "labels": [
     {
       "name": "feature",
@@ -45,8 +45,8 @@
     {
       "name": "Click on \"Drag and drop your CSV file here\"  | 2. Select multiple files using CTRL | 4. Verify system behavior",
       "status": "passed",
-      "start": 1769021497765,
-      "stop": 1769021497865
+      "start": 1769021603649,
+      "stop": 1769021603749
     }
   ]
 }

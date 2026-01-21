@@ -374,7 +374,7 @@ Status.Values=PENDING, PASSED, FAILED, BLOCKED, SKIPPED
                 pass_rate = (passed / executed * 100)
                 print(f"\n📈 Métricas:")
                 print(f"   Pass Rate: {pass_rate:.1f}%")
-                print(f"   Executed: {executed}/{executed} ({100:.1f}%)")
+                print(f"   Executed: {executed}/106 ({executed/106*100:.1f}%)")
         
         return True
 
