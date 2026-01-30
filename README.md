@@ -1,10 +1,10 @@
-# QA Dashboard con Allure report
+# Excellure Dashboard
 
 Dashboard interactivo para gestionar y visualizar casos de prueba manuales con reportes Allure automatizados.
 
 ## 📋 Descripción
 
-QA Dashboard es una herramienta que permite:
+Excellure Dashboard es una herramienta que permite:
 - 📊 Convertir casos de prueba desde Excel a formato Allure Report
 - 📈 Generar reportes visuales interactivos automáticamente
 - 🔄 Automatizar la publicación de reportes en GitHub Pages
@@ -44,7 +44,7 @@ QA Dashboard es una herramienta que permite:
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/FalonSt/qa-dashboard.git
-cd qa-dashboard/qa-dashboard
+cd qa-dashboard
 ```
 
 ### 2. Instalar dependencias Python
@@ -263,7 +263,7 @@ export JAVA_HOME=/usr/libexec/java_home -v 17
 ### Error: requirements.txt no encontrado
 Asegúrate de estar en el directorio correcto:
 ```bash
-cd qa-dashboard/qa-dashboard
+cd qa-dashboard
 pip install -r requirements.txt
 ```
 
