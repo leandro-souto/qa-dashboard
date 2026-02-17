@@ -9,8 +9,8 @@
     "muted": false,
     "flaky": false
   },
-  "start": 1771355442538,
-  "stop": 1771355443538,
+  "start": 1771356141362,
+  "stop": 1771356142362,
   "labels": [
     {
       "name": "feature",
@@ -45,8 +45,8 @@
     {
       "name": "Execute processing | 2. Check CloudWatch logs",
       "status": "passed",
-      "start": 1771355442538,
-      "stop": 1771355442638
+      "start": 1771356141362,
+      "stop": 1771356141462
     }
   ]
 }
