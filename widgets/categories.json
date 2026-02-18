@@ -1,1 +1,1 @@
-{"total":3,"items":[{"uid":"4df73de030235da2558cd99ffc9ca6c1","name":"\uD83D\uDD34 Product Defects (Failed)","statistic":{"failed":9,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":9}},{"uid":"f50aa6d8a04bca5fd212ef3417a24bf9","name":"⏭️ Skipped Tests","statistic":{"failed":0,"broken":0,"skipped":3,"passed":0,"unknown":0,"total":3}},{"uid":"ffd8a014b972cee35cb53a631972f9fb","name":"⏸️ Pending Execution","statistic":{"failed":0,"broken":0,"skipped":0,"passed":0,"unknown":64,"total":64}}]}
+{"total":0,"items":[]}
