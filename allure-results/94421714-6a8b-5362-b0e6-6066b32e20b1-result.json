@@ -1,16 +1,16 @@
 {
   "uuid": "94421714-6a8b-5362-b0e6-6066b32e20b1",
   "historyId": "4d1c851bac1b5cea7ccacaeb23992fdb",
-  "name": "Drag-and-Drop Upload",
+  "name": "Login con credenciales válidas",
   "fullName": "Functional TC.TC-001",
-  "status": "unknown",
+  "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1771356141362,
-  "stop": 1771356142362,
+  "start": 1771422321069,
+  "stop": 1771422322069,
   "labels": [
     {
       "name": "feature",
@@ -37,21 +37,22 @@
       "value": "Functional TC"
     }
   ],
-  "links": [],
-  "parameters": [
+  "links": [
     {
-      "name": "Valid CSV",
-      "value": "1,000 contacts; 50,000 contacts; 250,000 contacts"
+      "type": "issue",
+      "name": "JIRA-123",
+      "url": ""
     }
   ],
-  "description": "Test drag-and-drop file upload functionality\n\n**Resultado Esperado:**\nFile uploads successfully with progress bar and success message\n\n**Datos de Prueba:**\nValid CSV: 1,000 contacts; 50,000 contacts; 250,000 contacts\n\n",
-  "descriptionHtml": "Test drag-and-drop file upload functionality<br><br>**Resultado Esperado:**<br>File uploads successfully with progress bar and success message<br><br>**Datos de Prueba:**<br>Valid CSV: 1,000 contacts; 50,000 contacts; 250,000 contacts<br><br>",
+  "parameters": [],
+  "description": "Verificar que el usuario puede ingresar...\n\n**Resultado Esperado:**\nUsuario autenticado correctamente\n\n**Datos de Prueba:**\nuser@example.com, password123\n\n**Notas:**\nJIRA-123",
+  "descriptionHtml": "Verificar que el usuario puede ingresar...<br><br>**Resultado Esperado:**<br>Usuario autenticado correctamente<br><br>**Datos de Prueba:**<br>user@example.com, password123<br><br>**Notas:**<br>JIRA-123",
   "steps": [
     {
-      "name": "Click on \"Drag and drop your CSV file here\"  | 2. Drag CSV file to drop zone | 3. Drop file | 4. Verify upload completion",
+      "name": "Abrir login\\n2. Ingresar credenciales...",
       "status": "passed",
-      "start": 1771356141362,
-      "stop": 1771356141462
+      "start": 1771422321069,
+      "stop": 1771422321169
     }
   ]
 }

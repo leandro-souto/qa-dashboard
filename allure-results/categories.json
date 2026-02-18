@@ -33,36 +33,6 @@
     "messageRegex": ".*Functional.*"
   },
   {
-    "name": "\ud83d\udccb Negative Tests",
-    "matchedStatuses": [],
-    "messageRegex": ".*Negative.*"
-  },
-  {
-    "name": "\ud83d\udccb Integration Tests",
-    "matchedStatuses": [],
-    "messageRegex": ".*Integration.*"
-  },
-  {
-    "name": "\ud83d\udccb Recovery Tests",
-    "matchedStatuses": [],
-    "messageRegex": ".*Recovery.*"
-  },
-  {
-    "name": "\ud83d\udccb Compatibility Tests",
-    "matchedStatuses": [],
-    "messageRegex": ".*Compatibility.*"
-  },
-  {
-    "name": "\ud83d\udccb Performance Tests",
-    "matchedStatuses": [],
-    "messageRegex": ".*Performance.*"
-  },
-  {
-    "name": "\ud83d\udccb Security Tests",
-    "matchedStatuses": [],
-    "messageRegex": ".*Security.*"
-  },
-  {
     "name": "\ud83d\udd25 Critical Priority",
     "matchedStatuses": [],
     "messageRegex": ".*Critical.*"
