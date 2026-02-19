@@ -43,12 +43,15 @@ jobs:
       - name: Generate Allure Report
         run: allure generate allure-results -o allure-report --clean
       
-      - name: Copy login page to publish directory
-        run: cp login.html allure-report/index.html
+      - name: Create publish directory structure
+        run: |
+          mkdir -p publish/report
+          cp login.html publish/index.html
+          cp -r allure-report/* publish/report/
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-report
+          publish_dir: publish
