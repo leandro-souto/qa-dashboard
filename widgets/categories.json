@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":2,"items":[{"uid":"4df73de030235da2558cd99ffc9ca6c1","name":"\uD83D\uDD34 Product Defects (Failed)","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"54b97f714ec20c3ad64d645f3a869ea6","name":"\uD83D\uDEAB Blocked Tests","statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1}}]}

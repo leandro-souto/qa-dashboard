@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"043cee24b4279095f347426f943892b5","name":"Functional TC","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{"total":1,"items":[{"uid":"043cee24b4279095f347426f943892b5","name":"Functional TC","statistic":{"failed":1,"broken":1,"skipped":0,"passed":1,"unknown":0,"total":3}}]}
