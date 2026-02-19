@@ -1,14 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"El boton esta roto
-
-**Resultado Esperado:**
-no funciona nada
-
-**Datos de Prueba:**
--
-
-**Notas:**
-JIRA-125","1000","Boton de agregar columna","","2026-02-19","broken","2026-02-19","","Functional TC","",""
 "Verificar que el usuario puede ingresar...
 
 **Resultado Esperado:**
@@ -19,6 +9,16 @@ user@example.com, password123
 
 **Notas:**
 JIRA-123","1000","Login con credenciales válidas","","2026-02-19","passed","2026-02-19","","Functional TC","",""
+"El boton esta roto
+
+**Resultado Esperado:**
+no funciona nada
+
+**Datos de Prueba:**
+-
+
+**Notas:**
+JIRA-125","1000","Boton de agregar columna","","2026-02-19","broken","2026-02-19","","Functional TC","",""
 "Verificar que el usuario no puede ingresar…
 
 **Resultado Esperado:**
