@@ -191,9 +191,9 @@
 
             // Validar credenciales
             if (username === VALID_USERNAME && password === VALID_PASSWORD) {
-                // Guardar sesión en localStorage
-                localStorage.setItem('qa_dashboard_authenticated', 'true');
-                localStorage.setItem('qa_dashboard_login_time', new Date().getTime());
+                // Guardar sesión en sessionStorage (se limpia al cerrar la pestaña)
+                sessionStorage.setItem('qa_dashboard_authenticated', 'true');
+                sessionStorage.setItem('qa_dashboard_login_time', new Date().getTime());
 
                 // Mostrar mensaje de éxito
                 successMessage.style.display = 'block';
@@ -212,21 +212,21 @@
 
         // Verificar si ya está autenticado
         window.addEventListener('load', function() {
-            const isAuthenticated = localStorage.getItem('qa_dashboard_authenticated');
-            const loginTime = localStorage.getItem('qa_dashboard_login_time');
+            const isAuthenticated = sessionStorage.getItem('qa_dashboard_authenticated');
+            const loginTime = sessionStorage.getItem('qa_dashboard_login_time');
 
             if (isAuthenticated && loginTime) {
-                // Sesión válida por 24 horas
-                const dayInMs = 24 * 60 * 60 * 1000;
+                // Sesión válida por 5 minutos
+                const fiveMinutesInMs = 5 * 60 * 1000;
                 const currentTime = new Date().getTime();
 
-                if (currentTime - parseInt(loginTime) < dayInMs) {
+                if (currentTime - parseInt(loginTime) < fiveMinutesInMs) {
                     // Redirigir automáticamente si ya está autenticado
                     window.location.href = REPORT_URL;
                 } else {
                     // Sesión expirada
-                    localStorage.removeItem('qa_dashboard_authenticated');
-                    localStorage.removeItem('qa_dashboard_login_time');
+                    sessionStorage.removeItem('qa_dashboard_authenticated');
+                    sessionStorage.removeItem('qa_dashboard_login_time');
                 }
             }
         });
